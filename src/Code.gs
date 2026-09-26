@@ -10,9 +10,13 @@
  * - Campos com validação e máscaras no Index.html
  *******************************************************/
 
-const PASTA_DRIVE_ID = '1-C9XYd9CvoPgKTKL_iLeGfpoWz-jwn2E';
-const PLANILHA_REGISTRO_ID = '1FZsd1UaUnKuRpW7kBZB8CTEmxzXaUy-czzWJm1XW_GY';
-const ABA_REGISTRO = 'Página1';
+// Configurações privadas: defina estes valores em
+// Apps Script > Configurações do projeto > Propriedades do script.
+// Nunca publique os IDs reais no GitHub.
+const SCRIPT_PROPERTIES = PropertiesService.getScriptProperties();
+const PASTA_DRIVE_ID = SCRIPT_PROPERTIES.getProperty('PASTA_DRIVE_ID');
+const PLANILHA_REGISTRO_ID = SCRIPT_PROPERTIES.getProperty('PLANILHA_REGISTRO_ID');
+const ABA_REGISTRO = SCRIPT_PROPERTIES.getProperty('ABA_REGISTRO') || 'Página1';
 
 /*
  * A logo foi incorporada diretamente ao código.
