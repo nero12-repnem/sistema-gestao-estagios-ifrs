@@ -1,0 +1,13 @@
+Google Apps Script
+# Local/private configuration
+.env
+.env.*
+!.env.example
+config.local.*
+secrets.*
+credentials.*
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
