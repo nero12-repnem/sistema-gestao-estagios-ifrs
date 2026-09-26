@@ -50,4 +50,4 @@ Projeto desenvolvido para resolver uma necessidade real de automação de proces
 - Documentar instalação e configuração
 
 ## Autor
-Enzo
+Enzo da Rosa Severino
